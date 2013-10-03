@@ -9,7 +9,8 @@ public interface IPrice {
 
 	public List<Price> getAllPrice();
 	public List<Price> getMaxDateAllPrice();
-	public Price getPrice(Integer goodId);
+	public Price getMaxDatePriceByOneGood(int goodId);
+	public List<Price> getMaxDatePriceByOneCategory(int categoryId);
 	public List<Price> getActualDataAllPrice(Date date);
 	public Price getActualDatePrice(Date date);
 }
