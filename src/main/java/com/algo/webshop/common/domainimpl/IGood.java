@@ -15,4 +15,6 @@ public interface IGood {
 	public void updateGood(Good good);
 	
 	public void removeGood(int id);
+	
+	public String getLongDescription(int good_id);
 }
