@@ -17,4 +17,6 @@ public interface IGood {
 	public void removeGood(int id);
 	
 	public String getLongDescription(int good_id);
+
+	public String getManufactur(int good_id);
 }
