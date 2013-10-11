@@ -14,15 +14,18 @@ public class User implements Serializable{
 	private String login;
 	private String pass;
 	
-	/*public User(int id, String name, String email, String phone, String login,
+	public User(String name, String email, String phone, String login,
 			String pass) {
-		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.phone = phone;
 		this.login = login;
 		this.pass = pass;
-	}*/
+	}
+	
+	public User() {
+		
+	}
 
 	public int getId() {
 		return id;
