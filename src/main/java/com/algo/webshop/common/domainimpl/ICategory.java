@@ -10,7 +10,7 @@ public interface ICategory {
 
 	public List<Category> getCategorys();
 
-	public void addCategory(Category category);
+	public int addCategory(Category category);
 
 	public void updateCategory(Category category);
 	
