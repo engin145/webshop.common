@@ -21,5 +21,7 @@ public interface IOrder {
 	public void addOrder(Order order);
 
 	public void updateOrder(Order order);
+	
+	public String getLastOrderNumber();
 
 }
