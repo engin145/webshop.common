@@ -2,19 +2,20 @@ package com.algo.webshop.common.domain;
 
 import java.io.Serializable;
 
-public class Category implements Serializable {
+public class Unit implements Serializable {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 3641781285418117855L;
+	private static final long serialVersionUID = 6972394322383744108L;
 	private int id;
 	private String name;
-
-	public Category() {
-
+	
+	public Unit() {
+		super();
 	}
 
-	public Category(int id, String name) {
+	public Unit(int id, String name) {
+		super();
 		this.id = id;
 		this.name = name;
 	}
@@ -34,5 +35,5 @@ public class Category implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
 }

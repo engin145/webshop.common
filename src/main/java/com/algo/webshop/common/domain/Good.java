@@ -20,7 +20,7 @@ public class Good implements Serializable {
 	}
 
 	public Good(int id, String name, String description, int category_id,
-			int manufacturers_id, int amount, int units_id, String fotoFavorite) {
+			int manufacturers_id, float amount, int units_id) {
 		this.id = id;
 		this.name = name;
 		this.description = description;

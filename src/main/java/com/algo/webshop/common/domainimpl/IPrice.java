@@ -7,6 +7,7 @@ import com.algo.webshop.common.domain.Price;
 
 public interface IPrice {
 
+	public int addPrice(Price price); 
 	public List<Price> getAllPrice();
 	public List<Price> getMaxDateAllPrice();
 	public Price getMaxDatePriceByOneGood(int goodId);

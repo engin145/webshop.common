@@ -9,14 +9,18 @@ public interface IGood {
 	public Good getGood(int id);
 
 	public List<Good> getGoods(int category_id);
-
-	public void addGood(Good good);
+	
+	public List<Good> getGoodsSelect(int category_id, int manufacturer_id, int min, int max);
+	
+	public int addGood(Good good);
 
 	public void updateGood(Good good);
 	
-	public void removeGood(int id);
+	public int removeGood(int id);
 	
 	public String getLongDescription(int good_id);
+	
+	public void setLongDescription(int goods_id, String longDescription);
 
 	public String getManufactur(int good_id);
 }
