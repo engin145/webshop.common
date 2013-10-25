@@ -24,5 +24,7 @@ public interface IOrder {
 	public void updateOrder(Order order);
 
 	public String getLastOrderNumber();
+	
+	public int getOrderIdByNumber(String number);
 
 }
