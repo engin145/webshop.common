@@ -17,8 +17,7 @@ public interface IGood {
 	public int addGood(Good good);
 
 	public void updateGood(Good good);
-<<<<<<< HEAD
-	
+
 	public void updateGoodName(int id, String name);
 	
 	public void updateGoodCategory(int id, int categoryId);
@@ -32,10 +31,7 @@ public interface IGood {
 	public void updateGoodUnit(int id, int unitId);
 	
 	public void updateGoodDescription(int id, String desc);
-	
-=======
 
->>>>>>> c74b0cef30c6c492a88a8f7d4936283fb91054af
 	public int removeGood(int id);
 
 	public String getLongDescription(int good_id);
