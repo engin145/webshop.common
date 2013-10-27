@@ -11,7 +11,7 @@ public class GoodsList implements Serializable {
 	private static final long serialVersionUID = 5817174500810710386L;
 	private Set<Position> positions;
 
-	GoodsList() {
+	public GoodsList() {
 		positions = new HashSet<Position>();
 	}
 

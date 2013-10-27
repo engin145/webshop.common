@@ -19,11 +19,11 @@ public class Order implements Serializable {
 	private int cansel_status;
 	private int confirm_status;
 	private GoodsList goodList;
-	
+
 	public Order() {
-		
+
 	}
-	
+
 	public Order(int id, String number, int users_id, String phone,
 			String email, Calendar date_order, Calendar date_pay,
 			Calendar date_release, int cansel_status, int confirm_status) {
@@ -38,6 +38,23 @@ public class Order implements Serializable {
 		this.date_release = date_release;
 		this.cansel_status = cansel_status;
 		this.confirm_status = confirm_status;
+	}
+
+	public Order(String number, String phone, String email,
+			Calendar date_order, GoodsList goodList) {
+		this.number = number;
+		this.phone = phone;
+		this.email = email;
+		this.date_order = date_order;
+		this.goodList = goodList;
+	}
+
+	public Order(String number, int users_id, Calendar date_order,
+			GoodsList goodList) {
+		this.number = number;
+		this.users_id = users_id;
+		this.date_order = date_order;
+		this.goodList = goodList;
 	}
 
 	public int getId() {
@@ -127,10 +144,5 @@ public class Order implements Serializable {
 	public void setGoodList(GoodsList goodList) {
 		this.goodList = goodList;
 	}
-	
 
-	
 }
-
-
-
