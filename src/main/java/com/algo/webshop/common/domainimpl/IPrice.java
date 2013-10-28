@@ -1,6 +1,7 @@
 package com.algo.webshop.common.domainimpl;
 
 import java.sql.Date;
+import java.util.Calendar;
 import java.util.List;
 
 import com.algo.webshop.common.domain.Price;
@@ -21,5 +22,5 @@ public interface IPrice {
 
 	public List<Price> getActualDataAllPrice(Date date);
 
-	public Price getActualDatePrice(Date date, int good_id);
+	public Price getActualDatePrice(Calendar date, int good_id);
 }
