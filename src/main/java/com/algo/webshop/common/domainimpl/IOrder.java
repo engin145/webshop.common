@@ -8,7 +8,7 @@ import com.algo.webshop.common.domain.Order;
 public interface IOrder {
 	public Order getOrderById(int id);
 
-	public Order getOrder(String number);
+	public Order getOrderByNumber(String number);
 
 	public Set<Order> getOrderUser(int users_id);
 
