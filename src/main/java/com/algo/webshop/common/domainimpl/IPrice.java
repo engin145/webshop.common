@@ -7,7 +7,9 @@ import com.algo.webshop.common.domain.Price;
 
 public interface IPrice {
 
-	public int addPrice(Price price);
+	public float addPrice(Price price);
+
+	public float addPriceSum(Price price);
 
 	public List<Price> getAllPrice();
 

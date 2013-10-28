@@ -18,6 +18,20 @@ public interface IGood {
 
 	public void updateGood(Good good);
 
+	public void updateGoodName(int id, String name);
+	
+	public void updateGoodCategory(int id, int categoryId);
+	
+	public void updateGoodManufacturer(int id, int manufacturerId);
+	
+	public void updateGoodAmount(int id, float amount);
+	
+	public float updateGoodAmountSum(int id, float amount);
+	
+	public void updateGoodUnit(int id, int unitId);
+	
+	public void updateGoodDescription(int id, String desc);
+
 	public int removeGood(int id);
 
 	public String getLongDescription(int good_id);
