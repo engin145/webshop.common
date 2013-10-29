@@ -98,7 +98,7 @@ public class Order implements Serializable {
 	}
 
 	public Calendar getDate_order() {
-		return date_order;
+		return this.date_order;
 	}
 
 	public void setDate_order(Calendar date_order) {
@@ -106,7 +106,7 @@ public class Order implements Serializable {
 	}
 
 	public Calendar getDate_pay() {
-		return date_pay;
+		return this.date_pay;
 	}
 
 	public void setDate_pay(Calendar date_pay) {
