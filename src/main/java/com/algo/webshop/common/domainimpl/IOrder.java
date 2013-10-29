@@ -24,5 +24,7 @@ public interface IOrder {
 	public String getLastOrderNumber();
 
 	public int getOrderIdByNumber(String number);
+	
+	public List<Order> getOrdersByUserId(int user_id);
 
 }
